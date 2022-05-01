@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <!-- CSS for ekko light-box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link rel="stylesheet" href="css/style.css">
+
+
+  <title>Portfolio Blog</title>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <header id="main-header">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-5">
+          <img class="img-fluid" src="/img/vaibhav.png" alt="image">
+        </div>
+        <div class="col-lg-8 col-md-7">
+          <div class="p-5 bg-dark text-white">
+            <div class="d-flex align-items-center justify-content-between">
+              <h1 class="display-4">Vaibhav Paliwal</h1>
+              <h5><a class="text-white" target="blank" href="https://www.instagram.com/vaibhavpaliwal620/"><i class="fab fa-instagram"></i></a></h5>
+              <h5><a class="text-white" target="blank" href="https://www.linkedin.com/in/vaibhav-paliwal-a47bb7207/"><i class="fab fa-linkedin"></i></a></h5>
+              <h5><a class="text-white" target="blank" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></h5>
+            </div>
+          </div>
+
+          <div class="d-flex px-5 py-4 bg-black">
+            Full Stack Web Developer || Ethical Hacker || Programmer
+          </div>
+
+          <div class="d-flex flex-row  text-center text-white">
+            <div class="port-item bg-primary p-4" data-target="#home" data-toggle="collapse">
+              <i class="fas fa-home fa-2x"></i>
+              <span class="d-none d-sm-block">Home</span>
+            </div>
+            <div class="port-item bg-success p-4" data-target="#resume" data-toggle="collapse">
+              <i class="fas fa-graduation-cap fa-2x"></i>
+              <span class="d-none d-sm-block">Resume</span>
+            </div>
+            <div class="port-item bg-warning p-4" data-target="#work" data-toggle="collapse">
+              <i class="fas fa-folder-open fa-2x"></i>
+              <span class="d-none d-sm-block">Work</span>
+            </div>
+            <div class="port-item bg-danger p-4" data-target="#contact" data-toggle="collapse">
+              <i class="fas fa-envelope fa-2x"></i>
+              <span class="d-none d-sm-block">Contact</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <div id="home" class="collapse show">   <!-- by default we want to show home page so we added "show" class in it -->
+      <div class="card card-body bg-primary text-white p-5">
+        <h2>Welcome to my Home Page</h2>
+        <p class="lead">I am a B-Tech 2nd Year Computer Sccience Student at Nirma University</p>
+      </div>
+
+      <div class="card card-body py-5">
+        <h3>My Skills</h3>
+        <p class="lead">These are some of my Skills which I have acquired in last 1 year</p>
+        <hr>
+        <h4>Ethical Hacking</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width: 40%;"></div>
+        </div>
+        <h4>HTML</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width: 100%;"></div>
+        </div>
+        <h4>CSS</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width: 70%;"></div>
+        </div>
+        <h4>php</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width: 60%;"></div>
+        </div>
+        <h4>MySQL</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width: 85%;"></div>
+        </div>
+        <h4>C++</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width: 90%;"></div>
+        </div>
+        <h4>JAVA</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width: 70%;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resume -->
+    <div id="resume" class="collapse">
+      <div class="card card-body bg-success p-5 text-white">
+        <h2>This is my Resume</h2>
+        <p class="lead">I have done many web development projects, out of which some are liste below</p>
+      </div>
+      
+      <div class="card card-body">
+        <h3>Projects</h3>
+
+      <div class="card-deck mt-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">V-Threads</h4>
+            <p class="card-text">Its a forum website where you can post your doubts of any Topic and community will respond to your questions</p>
+            <p class="bg-dark text-white p-2">(+91) 742708XXXX</p>
+            <div class="card-footer">
+              <h6 class="text-muted">Date: 2020-2021</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Blogen</h4>
+            <p class="card-text">This is an UI for a Blogging website. This has a very nice dashboard for admin to handle all its blog posts</p>
+            <p class="bg-dark text-white p-2">(+91) 742708XXXX</p>
+            <div class="card-footer">
+              <h6 class="text-muted">Date: 2021-2022</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">LoopLAB & Mizuxe Book</h4>
+            <p class="card-text">These are 2 very nice User Interfaces, one is for a social media site and other is for a Book Website</p>
+            <p class="bg-dark text-white p-2">(+91) 742708XXXX</p>
+            <div class="card-footer">
+              <h6 class="text-muted">Date: 2021-2022</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- WORK -->
+    <div id="work" class="collapse">
+      <div class="card bg-warning text-white p-5">
+        <h2>My Work</h2>
+        <p class="lead">Here are some images of the websites which I have created</p>
+      </div>
+      
+      <div class="card card-body">
+        <h3>What Have I built?</h3>
+        <p class="lead">This is the work which is have done in my summers</p>
+        
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <a href="https://source.unsplash.com/560x560/?coding, programmer" data-toggle="lightbox"><img class="img-fluid" src="https://source.unsplash.com/1600x900/?coding, programmer" alt="img"></a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://source.unsplash.com/560x560/?python, django" data-toggle="lightbox"><img class="img-fluid" src="https://source.unsplash.com/1600x900/?python, django" alt="img"></a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://source.unsplash.com/560x560/?Web-development, php" data-toggle="lightbox"><img class="img-fluid" src="https://source.unsplash.com/1600x900/?Web-development, php" alt="img"></a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://source.unsplash.com/560x560/?java, coding" data-toggle="lightbox"><img class="img-fluid" src="https://source.unsplash.com/1600x900/?java, coding" alt="img"></a>
+          </div>
+          
+          <div class="row no-gutters">
+            <div class="col-md-3">
+              <a href="https://source.unsplash.com/560x560/?hardware, software" data-toggle="lightbox"><img class="img-fluid" src="https://source.unsplash.com/1600x900/?hardware, software" alt="img"></a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://source.unsplash.com/560x560/?company, data-analytics" data-toggle="lightbox"><img class="img-fluid" src="https://source.unsplash.com/1600x900/?company, data-analytics" alt="img"></a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://source.unsplash.com/560x560/?android, flask" data-toggle="lightbox"><img class="img-fluid" src="https://source.unsplash.com/1600x900/?android, flask" alt="img"></a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://source.unsplash.com/560x560/?hacking, networking" data-toggle="lightbox"><img class="img-fluid" src="https://source.unsplash.com/1600x900/?hacking, networking" alt="img"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Contact -->
+    <div id="contact" class="collapse">
+      <div class="card card-body p-5 bg-danger text-white">
+        <h3>Contact!</h3>
+        <p class="lead">You can contact me via this form</p>
+      </div>
+      
+      <div class="card card-body py-5">
+        <h3>Get in Touch !</h3>
+        <p class="lead">You can post any of your queries here and it will be responded with-in 16 hours</p>
+        <form>
+          
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend ">
+                <span class="input-group-text bg-danger text-white"><i class="fas fa-user"></i></span>
+              </div>
+              <input class="form-control bg-dark text-white" type="text" placeholder="username">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend ">
+                <span class="input-group-text bg-danger text-white"><i class="fas fa-envelope"></i></span>
+              </div>
+              <input class="form-control bg-dark text-white" type="email" placeholder="email address">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend ">
+                <span class="input-group-text bg-danger text-white"><i class="fas fa-pencil-alt"></i></span>
+              </div>
+              <!-- <input class="form-control bg-dark text-white" type="text" placeholder="username"> -->
+              <textarea class="form-control bg-dark text-white" placeholder="enter your message" cols="30" rows="2"></textarea>
+            </div>
+          </div>
+          
+          <input class="btn btn-danger btn-block btn-lg" type="submit" value="submit">
+        </form>
+      </div>
+    </div>
+    
+
+      <!-- Footer -->
+      <footer class="px-5 py-4 text-white bg-dark" id="main-footer">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="btn btn-outline-light"><i class="fas fa-cloud"></i> Download Resume</a>
+          </div>
+        </div>
+      </footer>
+
+      
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+    <!-- ekko light-box java script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script>
+    // JS to collapse other tabs when we click on a specific tab in port-item
+    $('.port-item').click(function(){
+      $('.collapse').collapse('hide');
+    })
+
+    $(document).on('click', '[data-toggle="lightbox"]', function(e){
+      e.preventDefault();
+      $(this).ekkoLightbox();
+    })
+  </script>
+</body>
+
+</html>
+
