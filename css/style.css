@@ -28,3 +28,12 @@
         padding: 3.8rem !important;
     }
 }
+
+
+#myimage{
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    width: 400px;
+    height: 422px;
+}
